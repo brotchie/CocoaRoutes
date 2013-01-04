@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E51922121697965500157104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922111697965500157104 /* Foundation.framework */; };
+		E51922171697965500157104 /* CocoaRoutes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E51922161697965500157104 /* CocoaRoutes.h */; };
+		E51922191697965500157104 /* CocoaRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = E51922181697965500157104 /* CocoaRoutes.m */; };
+		E51922211697965500157104 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922201697965500157104 /* SenTestingKit.framework */; };
+		E51922231697965500157104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922221697965500157104 /* UIKit.framework */; };
+		E51922241697965500157104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922111697965500157104 /* Foundation.framework */; };
+		E51922271697965500157104 /* libCocoaRoutes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E519220E1697965500157104 /* libCocoaRoutes.a */; };
+		E519222D1697965500157104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E519222B1697965500157104 /* InfoPlist.strings */; };
+		E51922301697965500157104 /* CocoaRoutesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E519222F1697965500157104 /* CocoaRoutesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E51922251697965500157104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E51922051697965500157104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E519220D1697965500157104;
+			remoteInfo = CocoaRoutes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E519220C1697965500157104 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				E51922171697965500157104 /* CocoaRoutes.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E519220E1697965500157104 /* libCocoaRoutes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaRoutes.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51922111697965500157104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E51922151697965500157104 /* CocoaRoutes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaRoutes-Prefix.pch"; sourceTree = "<group>"; };
+		E51922161697965500157104 /* CocoaRoutes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaRoutes.h; sourceTree = "<group>"; };
+		E51922181697965500157104 /* CocoaRoutes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaRoutes.m; sourceTree = "<group>"; };
+		E519221F1697965500157104 /* CocoaRoutesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaRoutesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51922201697965500157104 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E51922221697965500157104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E519222A1697965500157104 /* CocoaRoutesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaRoutesTests-Info.plist"; sourceTree = "<group>"; };
+		E519222C1697965500157104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E519222E1697965500157104 /* CocoaRoutesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaRoutesTests.h; sourceTree = "<group>"; };
+		E519222F1697965500157104 /* CocoaRoutesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaRoutesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E519220B1697965500157104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51922121697965500157104 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E519221B1697965500157104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51922211697965500157104 /* SenTestingKit.framework in Frameworks */,
+				E51922231697965500157104 /* UIKit.framework in Frameworks */,
+				E51922241697965500157104 /* Foundation.framework in Frameworks */,
+				E51922271697965500157104 /* libCocoaRoutes.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E51922031697965500157104 = {
+			isa = PBXGroup;
+			children = (
+				E51922131697965500157104 /* CocoaRoutes */,
+				E51922281697965500157104 /* CocoaRoutesTests */,
+				E51922101697965500157104 /* Frameworks */,
+				E519220F1697965500157104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E519220F1697965500157104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E519220E1697965500157104 /* libCocoaRoutes.a */,
+				E519221F1697965500157104 /* CocoaRoutesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E51922101697965500157104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E51922111697965500157104 /* Foundation.framework */,
+				E51922201697965500157104 /* SenTestingKit.framework */,
+				E51922221697965500157104 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E51922131697965500157104 /* CocoaRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				E51922161697965500157104 /* CocoaRoutes.h */,
+				E51922181697965500157104 /* CocoaRoutes.m */,
+				E51922141697965500157104 /* Supporting Files */,
+			);
+			path = CocoaRoutes;
+			sourceTree = "<group>";
+		};
+		E51922141697965500157104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E51922151697965500157104 /* CocoaRoutes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E51922281697965500157104 /* CocoaRoutesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E519222E1697965500157104 /* CocoaRoutesTests.h */,
+				E519222F1697965500157104 /* CocoaRoutesTests.m */,
+				E51922291697965500157104 /* Supporting Files */,
+			);
+			path = CocoaRoutesTests;
+			sourceTree = "<group>";
+		};
+		E51922291697965500157104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E519222A1697965500157104 /* CocoaRoutesTests-Info.plist */,
+				E519222B1697965500157104 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E519220D1697965500157104 /* CocoaRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E51922331697965500157104 /* Build configuration list for PBXNativeTarget "CocoaRoutes" */;
+			buildPhases = (
+				E519220A1697965500157104 /* Sources */,
+				E519220B1697965500157104 /* Frameworks */,
+				E519220C1697965500157104 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaRoutes;
+			productName = CocoaRoutes;
+			productReference = E519220E1697965500157104 /* libCocoaRoutes.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E519221E1697965500157104 /* CocoaRoutesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E51922361697965500157104 /* Build configuration list for PBXNativeTarget "CocoaRoutesTests" */;
+			buildPhases = (
+				E519221A1697965500157104 /* Sources */,
+				E519221B1697965500157104 /* Frameworks */,
+				E519221C1697965500157104 /* Resources */,
+				E519221D1697965500157104 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E51922261697965500157104 /* PBXTargetDependency */,
+			);
+			name = CocoaRoutesTests;
+			productName = CocoaRoutesTests;
+			productReference = E519221F1697965500157104 /* CocoaRoutesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E51922051697965500157104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = E51922081697965500157104 /* Build configuration list for PBXProject "CocoaRoutes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E51922031697965500157104;
+			productRefGroup = E519220F1697965500157104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E519220D1697965500157104 /* CocoaRoutes */,
+				E519221E1697965500157104 /* CocoaRoutesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E519221C1697965500157104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E519222D1697965500157104 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E519221D1697965500157104 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E519220A1697965500157104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51922191697965500157104 /* CocoaRoutes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E519221A1697965500157104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51922301697965500157104 /* CocoaRoutesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E51922261697965500157104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E519220D1697965500157104 /* CocoaRoutes */;
+			targetProxy = E51922251697965500157104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E519222B1697965500157104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E519222C1697965500157104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E51922311697965500157104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E51922321697965500157104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E51922341697965500157104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CocoaRoutes.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaRoutes/CocoaRoutes-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E51922351697965500157104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CocoaRoutes.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaRoutes/CocoaRoutes-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E51922371697965500157104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaRoutes/CocoaRoutes-Prefix.pch";
+				INFOPLIST_FILE = "CocoaRoutesTests/CocoaRoutesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E51922381697965500157104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaRoutes/CocoaRoutes-Prefix.pch";
+				INFOPLIST_FILE = "CocoaRoutesTests/CocoaRoutesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E51922081697965500157104 /* Build configuration list for PBXProject "CocoaRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51922311697965500157104 /* Debug */,
+				E51922321697965500157104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E51922331697965500157104 /* Build configuration list for PBXNativeTarget "CocoaRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51922341697965500157104 /* Debug */,
+				E51922351697965500157104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E51922361697965500157104 /* Build configuration list for PBXNativeTarget "CocoaRoutesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51922371697965500157104 /* Debug */,
+				E51922381697965500157104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E51922051697965500157104 /* Project object */;
+}
