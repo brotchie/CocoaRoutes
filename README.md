@@ -1,11 +1,12 @@
 # CocoaRoutes: Minimalist Web Framework
-*CocoaRoutes* is a minimalist web framework inspired by Python's Routes.
+**CocoaRoutes(* is a minimalist web framework inspired by Python's Routes.
 
 ### Example
 
 ```objc
 CRMapper *mapper = [[CRMapper alloc] init];
-[mapper connect:@"/greet/:name/:message" controller:[CRBlockController get:^NSString *(HTTPMessage *message, NSDictionary *args) {
+[mapper connect:@"/greet/:name/:message"
+     controller:[CRBlockController get:^NSString *(HTTPMessage *message, NSDictionary *args) {
     return [NSString stringWithFormat:@"Hello %@, %@.", args[@"name"], args[@"message"]];
 }]];
 CRHTTPServer *server = [[CRHTTPServer alloc] initWithMapper:mapper];
