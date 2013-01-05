@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CocoaRoutes : NSObject
-
-@end
+#import "CRRoute.h"
+#import "CRController.h"
+#import "CRMapper.h"
+#import "CRHTTPConnection.h"
+#import "CRHTTPServer.h"
+#import "CRBlockController.h"
+#import "NSString+CocoaRoutes.h"

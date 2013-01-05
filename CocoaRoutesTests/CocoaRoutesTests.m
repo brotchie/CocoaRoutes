@@ -7,6 +7,7 @@
 //
 
 #import "CocoaRoutesTests.h"
+#import "CocoaRoutes.h"
 
 @implementation CocoaRoutesTests
 
@@ -24,9 +25,13 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testRoutePathMatching
 {
-    STFail(@"Unit tests are not implemented yet in CocoaRoutesTests");
+    CRRoute *route = [[CRRoute alloc] initWithName:nil path:@"/company/:company/person/:name" controller:nil];
+    NSDictionary *result = [route match:@"/company/apple/person/steve"];
+    STAssertNotNil(result, @"'/company/apple/person/steve should' match");
+    STAssertEqualObjects(result[@"company"], @"apple", @":company should be apple.");
+    STAssertEqualObjects(result[@"name"], @"steve", @":name should be steve.");
 }
 
 @end

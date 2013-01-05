@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A200E26223749FDBE028D74 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53206CF26448445BBF0CA4CE /* libPods.a */; };
+		DE6BBDDF6FEA4BD9A4F6FEE7 /* libPods-CocoaRoutesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD06CC3E835A443B8172E5C0 /* libPods-CocoaRoutesTests.a */; };
+		E507619B1697BFBC00C4CF63 /* libCocoaRoutes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E519220E1697965500157104 /* libCocoaRoutes.a */; };
+		E507619F1697C0B300C4CF63 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E507619E1697C0B300C4CF63 /* CFNetwork.framework */; };
+		E50761A11697C0BE00C4CF63 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50761A01697C0BE00C4CF63 /* Security.framework */; };
+		E50761A31697C12700C4CF63 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E50761A21697C12700C4CF63 /* libxml2.dylib */; };
+		E50761A61697CA8700C4CF63 /* CRBlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50761A51697CA8700C4CF63 /* CRBlockController.m */; };
+		E518B2EB16979A5D0091C0BB /* CRMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E518B2EA16979A5D0091C0BB /* CRMapper.m */; };
+		E518B2EF16979B1A0091C0BB /* CRRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = E518B2EE16979B1A0091C0BB /* CRRoute.m */; };
 		E51922121697965500157104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922111697965500157104 /* Foundation.framework */; };
 		E51922171697965500157104 /* CocoaRoutes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E51922161697965500157104 /* CocoaRoutes.h */; };
-		E51922191697965500157104 /* CocoaRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = E51922181697965500157104 /* CocoaRoutes.m */; };
 		E51922211697965500157104 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922201697965500157104 /* SenTestingKit.framework */; };
 		E51922231697965500157104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922221697965500157104 /* UIKit.framework */; };
 		E51922241697965500157104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922111697965500157104 /* Foundation.framework */; };
-		E51922271697965500157104 /* libCocoaRoutes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E519220E1697965500157104 /* libCocoaRoutes.a */; };
 		E519222D1697965500157104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E519222B1697965500157104 /* InfoPlist.strings */; };
 		E51922301697965500157104 /* CocoaRoutesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E519222F1697965500157104 /* CocoaRoutesTests.m */; };
+		E5967E521697AB9400BF36B5 /* CRMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E518B2EA16979A5D0091C0BB /* CRMapper.m */; };
+		E5967E531697AB9400BF36B5 /* CRRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = E518B2EE16979B1A0091C0BB /* CRRoute.m */; };
+		E5967E571697AC5800BF36B5 /* NSString+CocoaRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = E5967E561697AC5800BF36B5 /* NSString+CocoaRoutes.m */; };
+		E5967E581697AC5800BF36B5 /* NSString+CocoaRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = E5967E561697AC5800BF36B5 /* NSString+CocoaRoutes.m */; };
+		E5967E5B1697B96E00BF36B5 /* CRHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E5967E5A1697B96E00BF36B5 /* CRHTTPConnection.m */; };
+		E5967E5C1697B96E00BF36B5 /* CRHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E5967E5A1697B96E00BF36B5 /* CRHTTPConnection.m */; };
+		E5967E5F1697BB0C00BF36B5 /* CRHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5967E5E1697BB0C00BF36B5 /* CRHTTPServer.m */; };
+		E5967E601697BB0C00BF36B5 /* CRHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5967E5E1697BB0C00BF36B5 /* CRHTTPServer.m */; };
+		E5967E671697BF3900BF36B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922221697965500157104 /* UIKit.framework */; };
+		E5967E681697BF3900BF36B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E51922111697965500157104 /* Foundation.framework */; };
+		E5967E6A1697BF3900BF36B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5967E691697BF3900BF36B5 /* CoreGraphics.framework */; };
+		E5967E701697BF3900BF36B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5967E6E1697BF3900BF36B5 /* InfoPlist.strings */; };
+		E5967E721697BF3900BF36B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5967E711697BF3900BF36B5 /* main.m */; };
+		E5967E761697BF3900BF36B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5967E751697BF3900BF36B5 /* AppDelegate.m */; };
+		E5967E781697BF3900BF36B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E5967E771697BF3900BF36B5 /* Default.png */; };
+		E5967E7A1697BF3900BF36B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5967E791697BF3900BF36B5 /* Default@2x.png */; };
+		E5967E7C1697BF3900BF36B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5967E7B1697BF3900BF36B5 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E507619C1697BFC200C4CF63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E51922051697965500157104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E519220D1697965500157104;
+			remoteInfo = CocoaRoutes;
+		};
 		E51922251697965500157104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E51922051697965500157104 /* Project object */;
@@ -42,11 +73,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		53206CF26448445BBF0CA4CE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EF06130EB94DA08207AC4F /* Pods-CocoaRoutesTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaRoutesTests.xcconfig"; path = "Pods/Pods-CocoaRoutesTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		E507619E1697C0B300C4CF63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E50761A01697C0BE00C4CF63 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E50761A21697C12700C4CF63 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E50761A41697CA8700C4CF63 /* CRBlockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBlockController.h; sourceTree = "<group>"; };
+		E50761A51697CA8700C4CF63 /* CRBlockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBlockController.m; sourceTree = "<group>"; };
+		E518B2E916979A5D0091C0BB /* CRMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMapper.h; sourceTree = "<group>"; };
+		E518B2EA16979A5D0091C0BB /* CRMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMapper.m; sourceTree = "<group>"; };
+		E518B2ED16979B1A0091C0BB /* CRRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRoute.h; sourceTree = "<group>"; };
+		E518B2EE16979B1A0091C0BB /* CRRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRoute.m; sourceTree = "<group>"; };
+		E518B2F016979B240091C0BB /* CRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRController.h; sourceTree = "<group>"; };
 		E519220E1697965500157104 /* libCocoaRoutes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaRoutes.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51922111697965500157104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E51922151697965500157104 /* CocoaRoutes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaRoutes-Prefix.pch"; sourceTree = "<group>"; };
 		E51922161697965500157104 /* CocoaRoutes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaRoutes.h; sourceTree = "<group>"; };
-		E51922181697965500157104 /* CocoaRoutes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaRoutes.m; sourceTree = "<group>"; };
 		E519221F1697965500157104 /* CocoaRoutesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaRoutesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51922201697965500157104 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E51922221697965500157104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +96,25 @@
 		E519222C1697965500157104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E519222E1697965500157104 /* CocoaRoutesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaRoutesTests.h; sourceTree = "<group>"; };
 		E519222F1697965500157104 /* CocoaRoutesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaRoutesTests.m; sourceTree = "<group>"; };
+		E5967E551697AC5800BF36B5 /* NSString+CocoaRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CocoaRoutes.h"; sourceTree = "<group>"; };
+		E5967E561697AC5800BF36B5 /* NSString+CocoaRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CocoaRoutes.m"; sourceTree = "<group>"; };
+		E5967E591697B96E00BF36B5 /* CRHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRHTTPConnection.h; sourceTree = "<group>"; };
+		E5967E5A1697B96E00BF36B5 /* CRHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRHTTPConnection.m; sourceTree = "<group>"; };
+		E5967E5D1697BB0C00BF36B5 /* CRHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRHTTPServer.h; sourceTree = "<group>"; };
+		E5967E5E1697BB0C00BF36B5 /* CRHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRHTTPServer.m; sourceTree = "<group>"; };
+		E5967E651697BF3900BF36B5 /* CocoaRoutesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaRoutesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5967E691697BF3900BF36B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5967E6D1697BF3900BF36B5 /* CocoaRoutesExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaRoutesExample-Info.plist"; sourceTree = "<group>"; };
+		E5967E6F1697BF3900BF36B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5967E711697BF3900BF36B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5967E731697BF3900BF36B5 /* CocoaRoutesExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaRoutesExample-Prefix.pch"; sourceTree = "<group>"; };
+		E5967E741697BF3900BF36B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5967E751697BF3900BF36B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5967E771697BF3900BF36B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E5967E791697BF3900BF36B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E5967E7B1697BF3900BF36B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E8F5E2978EAC44BF8EC96819 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		FD06CC3E835A443B8172E5C0 /* libPods-CocoaRoutesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaRoutesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51922121697965500157104 /* Foundation.framework in Frameworks */,
+				8A200E26223749FDBE028D74 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +134,21 @@
 				E51922211697965500157104 /* SenTestingKit.framework in Frameworks */,
 				E51922231697965500157104 /* UIKit.framework in Frameworks */,
 				E51922241697965500157104 /* Foundation.framework in Frameworks */,
-				E51922271697965500157104 /* libCocoaRoutes.a in Frameworks */,
+				DE6BBDDF6FEA4BD9A4F6FEE7 /* libPods-CocoaRoutesTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5967E621697BF3900BF36B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50761A31697C12700C4CF63 /* libxml2.dylib in Frameworks */,
+				E50761A11697C0BE00C4CF63 /* Security.framework in Frameworks */,
+				E507619F1697C0B300C4CF63 /* CFNetwork.framework in Frameworks */,
+				E507619B1697BFBC00C4CF63 /* libCocoaRoutes.a in Frameworks */,
+				E5967E671697BF3900BF36B5 /* UIKit.framework in Frameworks */,
+				E5967E681697BF3900BF36B5 /* Foundation.framework in Frameworks */,
+				E5967E6A1697BF3900BF36B5 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +160,11 @@
 			children = (
 				E51922131697965500157104 /* CocoaRoutes */,
 				E51922281697965500157104 /* CocoaRoutesTests */,
+				E5967E6B1697BF3900BF36B5 /* CocoaRoutesExample */,
 				E51922101697965500157104 /* Frameworks */,
 				E519220F1697965500157104 /* Products */,
+				E8F5E2978EAC44BF8EC96819 /* Pods.xcconfig */,
+				97EF06130EB94DA08207AC4F /* Pods-CocoaRoutesTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +173,7 @@
 			children = (
 				E519220E1697965500157104 /* libCocoaRoutes.a */,
 				E519221F1697965500157104 /* CocoaRoutesTests.octest */,
+				E5967E651697BF3900BF36B5 /* CocoaRoutesExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +181,15 @@
 		E51922101697965500157104 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E50761A21697C12700C4CF63 /* libxml2.dylib */,
+				E50761A01697C0BE00C4CF63 /* Security.framework */,
+				E507619E1697C0B300C4CF63 /* CFNetwork.framework */,
 				E51922111697965500157104 /* Foundation.framework */,
 				E51922201697965500157104 /* SenTestingKit.framework */,
 				E51922221697965500157104 /* UIKit.framework */,
+				53206CF26448445BBF0CA4CE /* libPods.a */,
+				FD06CC3E835A443B8172E5C0 /* libPods-CocoaRoutesTests.a */,
+				E5967E691697BF3900BF36B5 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +198,20 @@
 			isa = PBXGroup;
 			children = (
 				E51922161697965500157104 /* CocoaRoutes.h */,
-				E51922181697965500157104 /* CocoaRoutes.m */,
 				E51922141697965500157104 /* Supporting Files */,
+				E518B2E916979A5D0091C0BB /* CRMapper.h */,
+				E518B2EA16979A5D0091C0BB /* CRMapper.m */,
+				E518B2ED16979B1A0091C0BB /* CRRoute.h */,
+				E518B2EE16979B1A0091C0BB /* CRRoute.m */,
+				E518B2F016979B240091C0BB /* CRController.h */,
+				E5967E551697AC5800BF36B5 /* NSString+CocoaRoutes.h */,
+				E5967E561697AC5800BF36B5 /* NSString+CocoaRoutes.m */,
+				E5967E591697B96E00BF36B5 /* CRHTTPConnection.h */,
+				E5967E5A1697B96E00BF36B5 /* CRHTTPConnection.m */,
+				E5967E5D1697BB0C00BF36B5 /* CRHTTPServer.h */,
+				E5967E5E1697BB0C00BF36B5 /* CRHTTPServer.m */,
+				E50761A41697CA8700C4CF63 /* CRBlockController.h */,
+				E50761A51697CA8700C4CF63 /* CRBlockController.m */,
 			);
 			path = CocoaRoutes;
 			sourceTree = "<group>";
@@ -145,6 +243,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E5967E6B1697BF3900BF36B5 /* CocoaRoutesExample */ = {
+			isa = PBXGroup;
+			children = (
+				E5967E741697BF3900BF36B5 /* AppDelegate.h */,
+				E5967E751697BF3900BF36B5 /* AppDelegate.m */,
+				E5967E6C1697BF3900BF36B5 /* Supporting Files */,
+			);
+			path = CocoaRoutesExample;
+			sourceTree = "<group>";
+		};
+		E5967E6C1697BF3900BF36B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5967E6D1697BF3900BF36B5 /* CocoaRoutesExample-Info.plist */,
+				E5967E6E1697BF3900BF36B5 /* InfoPlist.strings */,
+				E5967E711697BF3900BF36B5 /* main.m */,
+				E5967E731697BF3900BF36B5 /* CocoaRoutesExample-Prefix.pch */,
+				E5967E771697BF3900BF36B5 /* Default.png */,
+				E5967E791697BF3900BF36B5 /* Default@2x.png */,
+				E5967E7B1697BF3900BF36B5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +277,7 @@
 				E519220A1697965500157104 /* Sources */,
 				E519220B1697965500157104 /* Frameworks */,
 				E519220C1697965500157104 /* CopyFiles */,
+				386DEB821DAC472EB92A7C87 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +296,7 @@
 				E519221B1697965500157104 /* Frameworks */,
 				E519221C1697965500157104 /* Resources */,
 				E519221D1697965500157104 /* ShellScript */,
+				82C4468350D142C48E9EE712 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +307,24 @@
 			productName = CocoaRoutesTests;
 			productReference = E519221F1697965500157104 /* CocoaRoutesTests.octest */;
 			productType = "com.apple.product-type.bundle";
+		};
+		E5967E641697BF3900BF36B5 /* CocoaRoutesExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5967E7D1697BF3900BF36B5 /* Build configuration list for PBXNativeTarget "CocoaRoutesExample" */;
+			buildPhases = (
+				E5967E611697BF3900BF36B5 /* Sources */,
+				E5967E621697BF3900BF36B5 /* Frameworks */,
+				E5967E631697BF3900BF36B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E507619D1697BFC200C4CF63 /* PBXTargetDependency */,
+			);
+			name = CocoaRoutesExample;
+			productName = CocoaRoutesExample;
+			productReference = E5967E651697BF3900BF36B5 /* CocoaRoutesExample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,6 +348,7 @@
 			targets = (
 				E519220D1697965500157104 /* CocoaRoutes */,
 				E519221E1697965500157104 /* CocoaRoutesTests */,
+				E5967E641697BF3900BF36B5 /* CocoaRoutesExample */,
 			);
 		};
 /* End PBXProject section */
@@ -219,9 +362,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5967E631697BF3900BF36B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5967E701697BF3900BF36B5 /* InfoPlist.strings in Resources */,
+				E5967E781697BF3900BF36B5 /* Default.png in Resources */,
+				E5967E7A1697BF3900BF36B5 /* Default@2x.png in Resources */,
+				E5967E7C1697BF3900BF36B5 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		386DEB821DAC472EB92A7C87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		82C4468350D142C48E9EE712 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CocoaRoutesTests-resources.sh\"\n";
+		};
 		E519221D1697965500157104 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,7 +424,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51922191697965500157104 /* CocoaRoutes.m in Sources */,
+				E518B2EB16979A5D0091C0BB /* CRMapper.m in Sources */,
+				E518B2EF16979B1A0091C0BB /* CRRoute.m in Sources */,
+				E5967E571697AC5800BF36B5 /* NSString+CocoaRoutes.m in Sources */,
+				E5967E5B1697B96E00BF36B5 /* CRHTTPConnection.m in Sources */,
+				E5967E5F1697BB0C00BF36B5 /* CRHTTPServer.m in Sources */,
+				E50761A61697CA8700C4CF63 /* CRBlockController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +438,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51922301697965500157104 /* CocoaRoutesTests.m in Sources */,
+				E5967E521697AB9400BF36B5 /* CRMapper.m in Sources */,
+				E5967E531697AB9400BF36B5 /* CRRoute.m in Sources */,
+				E5967E581697AC5800BF36B5 /* NSString+CocoaRoutes.m in Sources */,
+				E5967E5C1697B96E00BF36B5 /* CRHTTPConnection.m in Sources */,
+				E5967E601697BB0C00BF36B5 /* CRHTTPServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5967E611697BF3900BF36B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5967E721697BF3900BF36B5 /* main.m in Sources */,
+				E5967E761697BF3900BF36B5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E507619D1697BFC200C4CF63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E519220D1697965500157104 /* CocoaRoutes */;
+			targetProxy = E507619C1697BFC200C4CF63 /* PBXContainerItemProxy */;
+		};
 		E51922261697965500157104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E519220D1697965500157104 /* CocoaRoutes */;
@@ -269,6 +475,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				E519222C1697965500157104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5967E6E1697BF3900BF36B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5967E6F1697BF3900BF36B5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -325,6 +539,7 @@
 		};
 		E51922341697965500157104 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F5E2978EAC44BF8EC96819 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/CocoaRoutes.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -337,6 +552,7 @@
 		};
 		E51922351697965500157104 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F5E2978EAC44BF8EC96819 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/CocoaRoutes.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -349,6 +565,7 @@
 		};
 		E51922371697965500157104 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97EF06130EB94DA08207AC4F /* Pods-CocoaRoutesTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -364,6 +581,7 @@
 		};
 		E51922381697965500157104 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97EF06130EB94DA08207AC4F /* Pods-CocoaRoutesTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -374,6 +592,43 @@
 				INFOPLIST_FILE = "CocoaRoutesTests/CocoaRoutesTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		E5967E7E1697BF3900BF36B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaRoutesExample/CocoaRoutesExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../CocoaRoutes/**";
+				INFOPLIST_FILE = "CocoaRoutesExample/CocoaRoutesExample-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5967E7F1697BF3900BF36B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaRoutesExample/CocoaRoutesExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../CocoaRoutes/**";
+				INFOPLIST_FILE = "CocoaRoutesExample/CocoaRoutesExample-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -396,6 +651,7 @@
 				E51922351697965500157104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E51922361697965500157104 /* Build configuration list for PBXNativeTarget "CocoaRoutesTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +660,16 @@
 				E51922381697965500157104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5967E7D1697BF3900BF36B5 /* Build configuration list for PBXNativeTarget "CocoaRoutesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5967E7E1697BF3900BF36B5 /* Debug */,
+				E5967E7F1697BF3900BF36B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
