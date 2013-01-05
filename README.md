@@ -1,5 +1,5 @@
 # CocoaRoutes: Minimalist Web Framework
-**CocoaRoutes(* is a minimalist web framework inspired by Python's Routes.
+**CocoaRoutes** is a minimalist web framework inspired by Python's Routes.
 
 ### Example
 
